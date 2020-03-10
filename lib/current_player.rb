@@ -1,3 +1,8 @@
 def turn_count(board)
-board.size
+  counter = 0
+  board.each do |element|
+    if element == "X" || element == "O" then counter += 1 end
+
+  end
+
 end
